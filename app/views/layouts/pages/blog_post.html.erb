@@ -14,6 +14,10 @@
   <body class="bg-gray-900">
     <main class="container mx-auto mt-28 px-5 flex">
       <article class="prose prose-invert">
+        <h1><%= @frontmatter['title'] %></h1>
+        <p>
+          Posted by <%= @frontmatter['author'] %> on <%= @frontmatter['date'] %>
+        </p>
         <%= yield %>
       </article>
     </main>

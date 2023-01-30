@@ -168,6 +168,7 @@ GEM
     reline (0.3.2)
       io-console (~> 0.5)
     rexml (3.2.5)
+    ruby_matter (0.9.8)
     rubyzip (2.3.2)
     selenium-webdriver (4.8.0)
       rexml (~> 3.2, >= 3.2.5)
@@ -224,6 +225,7 @@ DEPENDENCIES
   rails (~> 7.0.4, >= 7.0.4.2)
   redcarpet (~> 3.6)
   redis (~> 4.0)
+  ruby_matter (~> 0.9.8)
   selenium-webdriver
   sprockets-rails
   sqlite3 (~> 1.4)
